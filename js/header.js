@@ -7,10 +7,10 @@ $(window).scroll(function () {
     }
 });
 
-$("button.hamburger").click(function(){
-    if($("button.hamburger").text() == "🞬"){
+$("button.hamburger").click(function () {
+    if ($("button.hamburger").text() == "🞬") {
         $("button.hamburger").text("☰");
-    }else{
+    } else {
         $("button.hamburger").text("🞬");
     }
     $(".nav-options li").toggle("slow");
